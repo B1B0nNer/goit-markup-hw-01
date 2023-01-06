@@ -1,0 +1,192 @@
+body{
+    width: 1440px;
+    margin: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    padding-top: 36px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#WEB{
+    color: #4B8CCA;
+}
+
+#STUDIO, .title_info{
+    color: #2E2F42;
+}
+
+.title_info{
+    margin-left:100px;
+    font-weight: bold;
+}
+
+.contacts{
+    margin-left: 400px;
+    color: #434455;
+}
+
+.title_info span, .contacts span{
+    margin-right: 35px;
+}
+
+.hero{
+    height: 600px;
+    background-color: #2E2F42;
+}
+
+.credo span{
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.credo{
+    padding-top: 150px;
+}
+
+.fakebutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #4D5AE5;
+    margin-top: 45px;
+    margin-left: 615px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.fakebutton p{
+    font-size: large;
+}
+
+.about_us{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+    width: 1128px;
+    height: 104px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills div{
+    margin-right: 24px
+}
+
+.skills span{
+    font-size: x-large;
+    color: #2E2F42;
+}
+
+.skills p{
+    color: #434455;
+}
+
+.what_are_we_doing{
+    width: 1128px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.what_are_we_doing span, .team span{
+    color: #2E2F42;
+    font-size: xx-large;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+
+.images img{
+    width: 360;
+    height: 300;
+    margin-right: 24px;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1128px;
+    height: 492px;
+}
+
+.team_pics{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_pics figure{
+    width: 260px;
+    height: 380px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+}
+
+.team_pics figcaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.team_pics figcaption span{
+    color: #2E2F42;
+}
+
+.team figcaption p{
+    color: #434455;
+}
+
+footer{
+    height: 310px;
+    background-color: #2E2F42;
+}
+
+.end{
+    width: 264px;
+    height: 110;
+    margin-left: 156px;
+    padding-top: 100px;
+}
+
+.end_text{
+    margin-top: 20px;
+    color: #E7E9FC;
+}
+
+.name_in_end{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+#STUDIO2{
+    color: white;
+}
