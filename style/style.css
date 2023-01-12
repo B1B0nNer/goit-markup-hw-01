@@ -9,9 +9,15 @@ header{
     display: flex;
     flex-direction: row;
     height: 72px;
-    padding-top: 36px;
-    padding-left: 100px;
-    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #WEB{
@@ -39,17 +45,18 @@ header{
 .hero{
     height: 600px;
     background-color: #2E2F42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.credo span{
-    width: 200px;
+h1{
+    width: 400px;
     color: white;
     text-align: center;
     font-size: xxx-large;
-}
-
-.credo{
-    padding-top: 150px;
+    font-weight: bold;
 }
 
 .fakebutton{
@@ -61,8 +68,6 @@ header{
     height: 50px;
     color: white;
     background-color: #4D5AE5;
-    margin-top: 45px;
-    margin-left: 615px;
     border-radius: 5px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
 }
@@ -92,7 +97,8 @@ header{
     margin-right: 24px
 }
 
-.skills span{
+.skills h3{
+    font-weight: bold;
     font-size: x-large;
     color: #2E2F42;
 }
@@ -110,7 +116,7 @@ header{
     align-items: center;
 }
 
-.what_are_we_doing span, .team span{
+.what_are_we_doing h2, .team h2{
     color: #2E2F42;
     font-size: xx-large;
 }
@@ -133,7 +139,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 1128px;
-    height: 492px;
+    height: 600px;
 }
 
 .team_pics{
@@ -145,7 +151,7 @@ header{
 
 .team_pics figure{
     width: 260px;
-    height: 380px;
+    height: 450px;
     box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -157,7 +163,7 @@ header{
     margin-top: 30px;
 }
 
-.team_pics figcaption span{
+.team_pics figcaption h3{
     color: #2E2F42;
 }
 
