@@ -14,6 +14,15 @@ header{
     align-items: center;
 }
 
+ a{
+    text-decoration: none;
+    color: #2E2F42;
+ }
+
+#logo{
+    font-size: x-large;
+}
+
 nav{
     display: flex;
     flex-direction: row;
@@ -29,8 +38,13 @@ nav{
     color: #2E2F42;
 }
 
-.title_info{
-    margin-left:100px;
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.title_info li{
     font-weight: bold;
 }
 
@@ -39,7 +53,7 @@ nav{
     color: #434455;
 }
 
-.title_info span, .contacts span{
+.title_info li, .contacts li{
     margin-right: 35px;
 }
 
@@ -94,7 +108,7 @@ h1{
     align-items: center;
 }
 
-.skills div{
+.skills li{
     margin-right: 24px
 }
 
@@ -115,6 +129,10 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.what_are_we_doing li{
+    width: 360px;
 }
 
 .what_are_we_doing h2, .team h2{
