@@ -18,10 +18,6 @@ header{
     color: #2E2F42;
  }
 
-#logo{
-    font-size: x-large;
-}
-
 nav{
     display: flex;
     flex-direction: row;
@@ -29,12 +25,9 @@ nav{
     align-items: center;
 }
 
-.WEB{
-    color: #4B8CCA;
-}
-
-#STUDIO, .title_info{
-    color: #2E2F42;
+.logo{
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 ul{
@@ -107,6 +100,11 @@ h1{
     align-items: center;
 }
 
+#About_Us{
+    font-size: xx-large;
+    color: #2E2F42; 
+}
+
 .skills{
     width: 1128px;
     height: 104px;
@@ -131,7 +129,6 @@ h1{
 }
 
 .what_are_we_doing{
-    width: 1128px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -165,7 +162,6 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1128px;
     height: 600px;
 }
 
@@ -218,6 +214,10 @@ footer{
 .name_in_end{
     font-weight: bold;
     font-size: xx-large;
+}
+
+.WEB{
+    color: #4D5AE5;
 }
 
 #STUDIO2{
