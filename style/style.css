@@ -188,18 +188,20 @@ h1{
 footer{
     height: 310px;
     background-color: #2E2F42;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
 }
 
-.end{
-    width: 264px;
-    height: 110;
+.name_in_end{
     margin-left: 156px;
-    padding-top: 100px;
+    margin-top: 30px;
+    color: #4D5AE5;
 }
-
 .end_text{
-    margin-top: 20px;
+    width: 264px;
     color: #E7E9FC;
+    margin-left: 156px;
 }
 
 .name_in_end{
